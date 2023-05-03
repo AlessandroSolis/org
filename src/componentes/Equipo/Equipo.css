@@ -1,0 +1,45 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (min-width: 720px) and (max-width: 1080px) {
+    .equipo {
+      font-size: 24px;
+      padding: 24px;
+    }
+    
+    .input-color {
+      top: 10px;
+      right: 20px;
+    }
+    
+    .colaboradores {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
